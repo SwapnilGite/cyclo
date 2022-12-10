@@ -1,5 +1,3 @@
-
-
 gsap.registerPlugin(ScrollTrigger);
 
 const mySvg = document.querySelector('#gear');
