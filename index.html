@@ -1,0 +1,414 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!-- <script src="path/to/image-zoom.min.js"></script> -->
+        <!-- <link rel="stylesheet" href="path/to/image-zoom.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+            
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="style.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+            <link rel="stylesheet" href="/css/pl_style.css">
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+            <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+            <!-- <link rel="stylesheet" href="https://unpkg.com/flickity-fade@2/flickity-fade.css"> -->
+            <title>Cyclothon</title>
+        </head>
+        <body onload="loader_fun()">
+            <div class="intro" >
+                <div class="inner" id="header">
+                    <img id="logo" src="Zest'23.png">
+                    <!-- <h1 id="pr">presents..</h1> -->
+                    <!-- <img id="bg" src="Images/posterbg.png"> -->
+                    <div class="mx-auto bgpo" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1500"  data-aos-offset="00" id="pngimg"><img  src="Images/bgposter2.png"></div>
+                    <h1 class="pngHead"  data-aos="zoom-in-up" data-aos-easing="linear"
+                    data-aos-duration="1500"  data-aos-offset="00" id="cyclo">Cyclothon</h1>
+                   <center> <h1 class="pngHead " data-aos="zoom-in-up" data-aos-easing="linear"
+                    data-aos-duration="1500"  data-aos-offset="00" id="pr">Gear to Go Green</h1></center>
+                    
+                    <h1 class="pngHead mx-auto" data-aos="zoom-in-up" data-aos-easing="linear"
+                    data-aos-duration="1500"   id="cat"><b>Under Patronage of</b></h1>
+                    <!-- <h1 class="pngHead" data-aos="zoom-in-up" data-aos-easing="linear"
+                    data-aos-duration="1500" id="km"><b>15 km | 30 km </b></h1> -->
+                    <img id="fit" src="Images/fit.png">
+                    <h1 class="pngHead" data-aos="zoom-in-up" data-aos-easing="linear"
+                    data-aos-duration="1500"   id="reg"><b>Last Date of Registration - </b><h1>
+                    <h1 class="pngHead"data-aos="zoom-in-up" data-aos-easing="linear"
+                    data-aos-duration="1500" id="date"><b>30<sup>th</sup> Dec 11.59 pm</b></h1>
+                    <button id="regbtn" data-aos=""  >
+                    <span id="reNow">Register Now</span>
+                    </button>
+                </div>
+            </div>
+            <h1 id="caHead" class="pt-2">Mark the Moment</h1>
+            <div class="container mx-auto">
+                <div class="row pt-5 mx-auto">
+                    <div class="col-md-12 col-lg-3 col-sm-12 mx-auto ">
+                        <div class="card3 bg-c-blue order-card">
+                            <div class="card-block3">
+                                <h6 class="text-center pb-2 fs-3" style="font-family:'Comfortaa', cursive;">Date</h6>
+                                <h2 class="text-center"><i class="fa fa-calendar pr-4"></i><span class="fs-4">31/12/2022</span></h2>
+                                <!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 col-lg-3 col-sm-12 mx-auto">
+                        <div class="card3 bg-c-green order-card">
+                            <div class="card-block3">
+                                <h6 class="text-center pb-2 fs-3 " style="font-family:'Comfortaa', cursive;">Time</h6>
+                                <h2 class="text-center"><i class="fa fa-clock-o pr-4 "></i><span class="fs-4">4.00 AM</span></h2>
+                                <!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 col-lg-3 col-sm-12 mx-auto">
+                        <div class="card3 bg-c-yellow order-card">
+                            <div class="card-block3">
+                                <h6 class="text-center pb-2 fs-3" style="font-family:'Comfortaa', cursive;">Venue</h6>
+                                <h2 class="text-center"><i class="fa fa-map-marker pr-4"></i><span class="fs-4">COEP Ground</span></h2>
+                                <!-- <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- about theme -->
+            <div class="container" id="about">
+                <h1 id="themeHead">Our Theme</h1>
+                <div class="row">
+                    <div class="col mx-auto">
+                        <p data-aos="zoom-in-up" data-aos-duration="1500" class="text-justify p-4 bg-light  col-lg-9 col-md-12 mb-4 mt-4 mx-auto" style="font-family: 'Comfortaa', cursive;font-size: 20px;padding: 10px;border-radius: 10px;">"Tired of making a way through the traffic of tons of vehicles emitting poisonous gases and making honking noises of horns?<br> ZEST is here with its newest iteration of Cyclothon, <b>" CYCLOTHON - Gear to Go Green "</b> to soothe your soul, by attempting to promote a cleaner, greener and better environment for a better future by inculcating Cycling Culture in society.<br>Zest'23 CYCLOTHON appeals to you to join us and pedal for a safer and greener tomorrow!!"<br>
+                            
+                            <b>" CYCLOTHON - Gear to Go Green "</b> aims to take an initiative for creating a cleaner and greener environment by reducing carbon footprints on an individual level and by instilling a cycling culture in society that respects, embraces, and promotes Cyclists.<br>
+                        ZEST'23 Cyclothon appeals to everyone to accept cycling as an alternative for fuel vehicles to  <b>Go Green</b> ...!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Categories -->
+            <!-- <div class="intro" > -->
+            <!-- <div class="inner"> -->
+            <h1 id="catHead" class="pt-2">Categories</h1>
+            <div style="background: radial-gradient(343px at 46.3% 47.5%, rgb(242, 242, 242) 0%, rgb(241, 241, 241) 72.9%);">
+                <center><h1 id="rt15" class="pt-2">15 Km - Open For All</h1></center>
+                <div  class="container">
+                    <div class="row">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="card2 rtCard col-md-12 p-3" style="">
+                            <div class="row ">
+                                <div class="col-lg-6 col-md-12 ">
+                                    <img class="w-100 " src="15rt.jpg">
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="card-block" >
+                                        <h6 class="card-title route">Route</h6>
+                                        <p class="card-text text-justify" style="font-family: 'Comfortaa', cursive;">Cyclothon will start from COEP hostel ground to SPPU University chowk and further through Ganesh Khind road from Rishi chowk and continue on Aundh Wakad road to cross the Rajiv Gandhi bridge on Mula river. Taking left from chowk before Sangavi traffic police station continues on Mahadji Shinde road and heads towards Westend mall. Taking the next left after Western mall continues on DP road to meet at Rishi chowk, taking right from Rishi chowk continue on Ganesh Khind Road to COEP hostel.<br><b>Registration Fees -
+                                        15 KM Category - ₹ 499 (Early Bird Offer- ₹ 419) </b></p>
+                                        <a href="https://www.google.com"><button >Register</button></a>
+                                        <!-- <a href="https://www.google.com" class="btn btn-primary mt-3">Register</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div style="background: radial-gradient(343px at 46.3% 47.5%, rgb(242, 242, 242) 0%, rgb(241, 241, 241) 72.9%);">
+                <center><h1 id="rt30" class="pt-2" >30 Km - Open For All</h1></center>
+                <div class="container">
+                    <div class="row">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="card2 rtCard col-md-12 p-3">
+                            <div class="row ">
+                                <div class="col-md-12 col-lg-6">
+                                    <img class="w-100" src="30rt.jpg">
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="card-block">
+                                        <h6 class="card-title route">Route</h6>
+                                        <p class="card-text text-justify" style="font-family: 'Comfortaa', cursive;">Cyclothon will start from COEP hostel ground and proceed through JM to SPPU University chowk and further through Ganesh Khind road crossing Bal Kalyan Sanstha from Rishi chowk and continue on the Aundh-Wakad road to cross Rajiv Gandhi bridge on Mula river. Continue on Aundh-Wakad road toward Delhi Darbar dining hall and enter Wakad and meet at Wakad -Bhosari road. After crossing the Wakad police station, take a right from the azzuro-wakad road. meet at Baner road after crossing Babasaheb Ambedkar bridge through the PMPML bus stop. From Baner road reach SPPU University chowk and further the COEP hostel.<br><b>Registration Fees - 30 KM Category - ₹ 699 (Early Bird Offer- ₹ 599)</b></p>
+                                        
+                                        <a href="https://www.google.com"><button >Register</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- prizes -->
+            <h1 id="deli">Deliverables</h1>
+            <div class="container bg-light " style="width:100%">
+                <div class="row">
+                    <div class="col">
+                        <div data-aos="zoom-in">
+                            <div  class="card"> <!-- Here I create a New Div with class name card -->
+                            <div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+                            <img src="Images/tshirt2.png" alt="user-image">
+                        </div>
+                        <div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+                        <h2 class="deliName">T-shirt</h2>
+                        <!-- <a href="#!">loremIpsum.com</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div data-aos="zoom-in">
+                <div  class="card"> <!-- Here I create a New Div with class name card -->
+                <div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+                <img src="Images/medal2.png" alt="user-image">
+            </div>
+            <div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+            <h2 class="deliName">Finisher's Medal</h2>
+            <!-- <a href="#!">loremIpsum.com</a> -->
+        </div>
+    </div>
+</div>
+</div>
+<div class="col">
+<div data-aos="zoom-in">
+    <div  class="card"> <!-- Here I create a New Div with class name card -->
+    <div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+    <img src="Images/cert.png" alt="user-image">
+</div>
+<div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+<h2 class="deliName">Certificate</h2>
+<!-- <a href="#!">loremIpsum.com</a> -->
+</div>
+</div>
+</div>
+</div>
+<div class="col">
+<div data-aos="zoom-in">
+<div  class="card"> <!-- Here I create a New Div with class name card -->
+<div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+<img src="Images/food.png" alt="user-image">
+</div>
+<div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+<h2 class="deliName"> Refreshment</h2>
+<!-- <a href="#!">loremIpsum.com</a> -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div data-aos="zoom-in">
+<div  class="card"> <!-- Here I create a New Div with class name card -->
+<div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+<img src="Images/kit.png" alt="user-image">
+</div>
+<div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+<h2 class="deliName">Welcome kit</h2>
+<!-- <a href="#!">loremIpsum.com</a> -->
+</div>
+</div>
+</div>
+</div>
+<div class="col">
+<div data-aos="zoom-in">
+<div  class="card"> <!-- Here I create a New Div with class name card -->
+<div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+<img src="Images/water.png" alt="user-image">
+</div>
+<div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+<h2 class="deliName">Energy Drinks</h2>
+<!-- <a href="#!">loremIpsum.com</a> -->
+</div>
+</div>
+</div>
+</div>
+<div class="col">
+<div data-aos="zoom-in">
+<div  class="card"> <!-- Here I create a New Div with class name card -->
+<div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+<img src="Images/bib.png" alt="user-image">
+</div>
+<div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+<h2 class="deliName">BIB</h2>
+<!-- <a href="#!">loremIpsum.com</a> -->
+</div>
+</div>
+</div>
+</div>
+<div class="col">
+<div data-aos="zoom-in">
+<div  class="card"> <!-- Here I create a New Div with class name card -->
+<div class="card_img"> <!-- Here I create a New Div for image with class name card_img -->
+<img src="Images/med.png" alt="user-image">
+</div>
+<div class="card_info"> <!-- Here I create a New Div for user info with class name card_info -->
+<h2 class="deliName">Medical support</h2>
+<!-- <a href="#!">loremIpsum.com</a> -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- carousel -->
+<h1  id="gall">Gallery</h1>
+<div class="overflow-hidden ">
+<!-- The slider itself is a flex grid -->
+<div class="overflow-hidden">
+<!-- The slider itself is a flex grid -->
+<div class="flex -mx-4 img-ticker">
+<!-- Original set of images -->
+<!-- Each image is a grid column with width 16rem (w-64) and horiztonal margin 1rem (mx-4) -->
+<img class="w-64 mx-2 self-start flex-none slider "  src="Images/1.jpg">
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/2.jpg">
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/3.jpg">
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/4.jpeg">
+<!-- <img class="w-64 mx-4 self-start flex-none" src="Images/4.jpeg"> -->
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/5.jpg">
+<!-- Copy set of images -->
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/1.jpg">
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/2.jpg">
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/3.jpg">
+<!-- <img class="w-64 mx-4 self-start flex-none" src="Images/3.jpeg"> -->
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/4.jpeg">
+<img class="w-64 mx-2 self-start flex-none slider" src="Images/5.jpg">
+</div>
+</div>
+<!-- footer -->
+<footer class="bg-dark text-light text-center text-lg-start">
+<!-- Grid container -->
+<div class="container p-4 mt-5">
+<div class="row">
+<h5 class="text-center fs-3 mb-4" style="font-family: 'Montserrat', sans-serif;font-size: 22px;padding: 10px;border-radius: 10px;">For any queries contact</h5>
+<!--Grid row-->
+<div class="row">
+<!--Grid column-->
+<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+<h5 class="text-center fs-4 my-2"  style="font-family: 'Montserrat', sans-serif;">Rohan Konde</h5>
+<p class="text-center">
+<i class="fa fa-phone me-2"></i>+91 93737 03957
+</p>
+</div>
+<!--Grid column-->
+<!--Grid column-->
+<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+<h5 class=" text-center fs-4" style="font-family: 'Montserrat', sans-serif;">Dinesh Mhaske</h5>
+<p class="text-center my-2">
+<i class="fa fa-phone me-2"></i> +91 96049 19907
+</p>
+</div>
+<!--Grid column-->
+</div>
+<div class="row">
+<!--Grid column-->
+<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+<h5 class="text-center fs-4 mt-3" style="font-family: 'Montserrat', sans-serif;">Address</h5>
+<p class="text-center">
+<i class="fa fa-home my-2 me-2"></i>COEP, Wellesley Rd, Shivajinagar, Pune, Maharashtra 411005
+</p>
+</div>
+<!--Grid column-->
+<!--Grid column-->
+<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+<h5 class="text-center fs-4 mt-3" style="font-family: 'Montserrat', sans-serif;">Follow us on</h5>
+<div class="text-center">
+<a href="" class="me-4 text-reset">
+<i class="fa fa-facebook-f"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fa fa-twitter"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fa fa-instagram"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fa fa-linkedin"></i>
+</a>
+</div>
+</div>
+<!--Grid column-->
+</div>
+</div>
+<!--Grid row-->
+</div>
+<!-- Grid container -->
+<!-- Copyright -->
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+<p class="text-center">Copyright© 2022.All Rights Reserved.<br>
+Designed by ZEST 23</p>
+<a class="text-dark" href="#">coepzest</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!--SVG-->
+<div>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 508 508" style="enable-background:new 0 0 508 508;" xml:space="preserve">
+<circle id= "circle1" style="fill:#90DFAA;" cx="254" cy="254" r="220"/>
+<path id="gear" style="fill:#FFFFFF;" d="M439.1,272.2v-36.5l-27-5c-3.9-26.8-14.4-51.4-29.9-72.1l15.5-22.6L372,110.2l-22.6,15.5
+c-20.7-15.4-45.3-26-72.1-29.9l-5-27h-36.5l-5,27c-26.8,3.9-51.4,14.4-72.1,29.9L136,110.2L110.2,136l15.5,22.6
+c-15.4,20.7-26,45.4-29.9,72.1l-27,5v36.5l27,5c3.9,26.8,14.4,51.4,29.9,72.1L110.2,372l25.8,25.8l22.6-15.5
+c20.7,15.4,45.4,26,72.1,29.9l5,27h36.5l5-27c26.8-3.9,51.4-14.4,72.1-29.9l22.6,15.5l25.8-25.8l-15.5-22.6
+c15.4-20.7,26-45.3,29.9-72.1L439.1,272.2z"/>
+<circle style="fill:#E6E9EE;" cx="254" cy="254" r="119.5"/>
+<circle style="fill:#FFFFFF;" cx="254" cy="254" r="103.8"/>
+<circle style="fill:#90DFAA;" cx="254" cy="254" r="59.6"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</div>
+<!--JS Libs-->
+<!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
+<!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
+<!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+<!-- <script src="https://unpkg.com/flickity-fade@2/flickity-fade.js"></script> -->
+<!-- <script src="https://cdn.logwork.com/widget/countdown.js"></script> -->
+<script src="/gear_ani.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body >
+</html>
